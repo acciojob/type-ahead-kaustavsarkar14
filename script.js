@@ -20,5 +20,5 @@ input.addEventListener('input',(e)=>{
 			})
 		})
 		.catch(err=>console.log(err))
-	},300)
+	},500)
 })
