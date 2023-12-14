@@ -19,5 +19,6 @@ input.addEventListener('input',(e)=>{
 				ul.appendChild(li)
 			})
 		})
+		.catch(err=>console.log(err))
 	},500)
 })
